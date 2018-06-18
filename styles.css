@@ -42,11 +42,13 @@ h2 {
     font-size: 64px;
 }
 a {
+  color: var(--lightblue);
 }
 
 
 a:link {
   text-decoration: none;
+  color: var(--lightblue);
 }
 
 a:visited {
