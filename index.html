@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Sean Wallace</title>
+    <title>Sean Wallace</title>
 
 		<style>
+      :root {
+        --darkblue: rgb(54, 53, 59);
+        --lightblue: rgb(131, 141, 151);
+        --ornge: rgb(200, 133, 76);
+      } 
 			body {
-				background-color: #f9fdff;
+				background-color: var(--darkblue);
 			}
 			h1 {
-    			position: fixed;
-    			left: 100px;
-    			top: 150px;
+    			text-align: center;
+	        font-family: "Andale Mono", AndaleMono, monospace;
+	        font-size: 24px;
+          color: var(--lightblue);
 			}
+      h2 {
+    			text-align: center;
+	        font-family: "Andale Mono", AndaleMono, monospace;
+	        font-size: 24px;
+          color: var(--lightblue);
+      }
+      .nameStyleL {
+    			text-align: center;
+	        font-family: "Andale Mono", AndaleMono, monospace;
+	        font-size: 64px;
+          text-shadow: -1px -4px var(--ornge);
+          color: var(--darkblue);
+          display: inline-block;
+      }
+
+      .nameStyleR {
+    			text-align: center;
+	        font-family: "Andale Mono", AndaleMono, monospace;
+	        font-size: 64px;
+          text-shadow: 1px 4px var(--ornge);
+          color: var(--darkblue);
+          display: inline-block;
+      }
 		</style>
 	</head>
 
 	<body>
-		<h1><font color="green"> Sean Wallace </font></h1>
-		<p></p>
+    <h1><span class="nameStyleL"> Sean</span> <span class="nameStyleR">Wallace </span></h1>
+    <h2><a href="https://seanwall.github.io/" title="personal website">web</a></h2>
 	</body>
 </html>
