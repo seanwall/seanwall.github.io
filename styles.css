@@ -1,7 +1,8 @@
 :root {
   --darkblue: rgb(54, 53, 59);
   --lightblue: rgb(131, 141, 151);
-  --ornge: rgb(200, 133, 76);
+  --orange: rgb(200, 133, 76);
+  --darkorange: rgb(221, 130, 51);
 } 
 body {
   background-color: var(--darkblue);
@@ -29,29 +30,27 @@ h2 {
     color: var(--lightblue);
 }
 .nameStyleL {
-    text-shadow: -1px -6px var(--ornge);
+    text-shadow: -1px -6px var(--orange);
     display: inline-block;
     font-size: 64px;
 }
 
 .nameStyleR {
-    text-shadow: 1px 6px var(--ornge);
+    text-shadow: 1px 6px var(--orange);
     text-align: center;
     display:inline-block;
     font-size: 64px;
 }
 a {
-
 }
 
 
 a:link {
-  color: var(--orng);
   text-decoration: none;
 }
 
 a:visited {
-  color: var(--orng);
+  color: var(--lightblue);
 }
 
 a:focus {
@@ -60,7 +59,7 @@ a:focus {
 
 a:hover {
   color: var(--darkblue);
-  text-shadow: 1px 2px var(--ornge);
+  text-shadow: 1px 2px var(--orange);
 
 }
 
