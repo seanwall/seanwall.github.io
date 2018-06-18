@@ -1,0 +1,69 @@
+:root {
+  --darkblue: rgb(54, 53, 59);
+  --lightblue: rgb(131, 141, 151);
+  --ornge: rgb(200, 133, 76);
+} 
+body {
+  background-color: var(--darkblue);
+}
+.content {
+  max-width: 1000px;
+  max-height: 64px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    color: var(--darkblue);
+}
+h2 {
+    text-align: center;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: 24px;
+    color: var(--lightblue);
+}
+.nameStyleL {
+    text-shadow: -1px -6px var(--ornge);
+    display: inline-block;
+    font-size: 64px;
+}
+
+.nameStyleR {
+    text-shadow: 1px 6px var(--ornge);
+    text-align: center;
+    display:inline-block;
+    font-size: 64px;
+}
+a {
+
+}
+
+
+a:link {
+  color: var(--orng);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--orng);
+}
+
+a:focus {
+
+}
+
+a:hover {
+  color: var(--darkblue);
+  text-shadow: 1px 2px var(--ornge);
+
+}
+
+a:active {
+
+}
